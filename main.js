@@ -6,16 +6,16 @@ const { exec } = require('child_process');
 var scount = 0;
 const fetch = require("node-fetch");
 
+    
 //mine_cart = "https://sudani.3abee.com/ar-sd/rest/sd/V1/carts/mine/payment-information";
 
 
 timer = 0;
-//mins = 1200;
-mins = 2400;
-phone = "123691234";
+mins = 900;
+phone = "124437374";
 
-cart ="A5jQVkC2xF9PfoBa8T9I0oPKOSvWu8Md"; 
-cookie ="PHPSESSID=ufkg5cdtg16fohm1hu4delnugp"
+cart ="8cepE0uuqldVJ7nI4S7llrxxhTJgyDFj"; 
+cookie ="PHPSESSID=qio823e4ad1k492q3o4ocoehcm"
  
 
 server_errors = 0;
@@ -175,7 +175,10 @@ function verify(){
     //console.log("Wrong otp: " + otp)
   process.stdout.clearLine();
   process.stdout.cursorTo(0);
-    process.stdout.write("Wrong otp: " + otp + "| ");
+  datetime = new Date();
+  m = datetime.getMinutes();
+    h = datetime.getHours();
+    process.stdout.write(" [ "+h+":"+m+" ] Wrong otp: " + otp + "| ");
     if(otp < 10000){
  verify()
     }else{
@@ -273,7 +276,7 @@ function sms(){
     return response.json();
   }).then(function(data) {
     if(data.success == true){
-      datetime = new Date();
+     datetime = new Date();
     m = datetime.getMinutes();
     h = datetime.getHours();
     scount++;
