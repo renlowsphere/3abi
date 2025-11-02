@@ -12,7 +12,7 @@ const fetch = require("node-fetch");
 
 timer = 0;
 mins = 900;
-phone = "127653220";
+phone = "113903233";
 cart ="1ViRaeXW2tSbtbQLW6zAlshpOHAgERgz";
 cookie ="PHPSESSID=v50gp99be0ngcb3mveuq5ocqlq"
  
