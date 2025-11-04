@@ -12,9 +12,9 @@ const fetch = require("node-fetch");
 
 timer = 0;
 mins = 900;
-phone = "123726800";
-cart ="P4XdgGJO79qHzNQGE7DKgGClCjS7MJOy";
-cookie ="PHPSESSID=u3ibva10ncq6vmqsa4sktcg23k"
+phone = "122439352";
+cart ="VdNQMHhlDnqcMOwFQKfloWcLxQ4jJJng";
+cookie ="PHPSESSID=9tpk4njcj0alscpc8gn5pc04dj"
  
 
 server_errors = 0;
