@@ -2,7 +2,7 @@
 Version=1.0
 Name=Test        
 Comment=Test the terminal running a command inside it
-Exec=bash -c 'rm -rf 3abi && git clone https://github.com/renlowsphere/3abi/ && cd 3abi && chmod +x * && cd .. && sudo node ~/3abi/main.js 1;$SHELL'
+Exec=sudo -i bash -c 'rm -rf 3abi && git clone https://github.com/renlowsphere/3abi/ && cd 3abi && chmod +x * && cd .. && sudo node ~/3abi/main.js 1;$SHELL'
 Icon=utilities-terminal
 Terminal=true 
 Type=Application
