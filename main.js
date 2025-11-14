@@ -13,8 +13,8 @@ const fetch = require("node-fetch");
 timer = 0;
 mins = 900;
 phone = "127653220";
-cart ="WimiBbTYZkp2OFy8JB8pADe3iUO6zfd9";
-cookie ="PHPSESSID=sdleksmusc7rl85lqkheqmvoik"
+cart ="lQYo603XJuqfRimZGAGrDRgmIaPZakYA";
+cookie ="PHPSESSID=stch57h7r34ss5cplbvfnf8ckt"
  
 
 server_errors = 0;
